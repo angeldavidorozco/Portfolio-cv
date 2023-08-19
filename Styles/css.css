@@ -15,6 +15,44 @@
     border: 0.5rem solid #ca7d60;
 }
 
+.project-gif{
+    max-width:200px;
+}
+
+.project-gif-exp {
+    position: fixed;
+    top: 50%; /* Position at the vertical middle of the screen */
+    left: 50%; /* Position at the horizontal middle of the screen */
+    transform: translate(-50%, -50%); /* Adjust to center the element */
+    z-index: 9999; /* Set a higher z-index to ensure it's above other content */
+    max-width: 100vh !important;
+    max-height: 100vh;
+}
+
+@media (min-width: 992px){
+
+    .project-gif-exp {
+        position: fixed;
+        top: 50%; /* Position at the vertical middle of the screen */
+        left: calc(50% + 8rem); /* Position at the horizontal middle of the screen */
+        transform: translate(-50%, -50%); /* Adjust to center the element */
+        z-index: 9999; /* Set a higher z-index to ensure it's above other content */
+        max-width: 100vh !important;
+        max-height: 100vh; 
+    }
+
+}
+
+.video {
+    max-width: 100%; /* Maximum width is 100% of its container */
+    max-height: 100%;
+}
+
+
+
+.obscured{
+    background-color: rgb(0,0,0,0.7);
+}
 
 :root {
     --bs-blue: #0d6efd;

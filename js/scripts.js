@@ -18,7 +18,7 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     };
 
-    // Collapse responsive navbar when toggler is visible
+    // Collapse responsive navbar when toggler is visible ////////////
     const navbarToggler = document.body.querySelector('.navbar-toggler');
     const responsiveNavItems = [].slice.call(
         document.querySelectorAll('#navbarResponsive .nav-link')
@@ -32,3 +32,68 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+
+/*$(document).ready(function () {
+
+    var token = 1;
+
+    
+    $('.project-gif').click(function (event) {
+        if (token == 1) {
+
+            event.stopPropagation(); // Prevent the click from propagating to the document
+
+            $(this).addClass('project-gif-exp');
+            $("#main").addClass("obscured");
+
+            token = 0;
+        }
+    });
+
+    $(document).click(function (event) {
+        if (!$(event.target).closest('.project-gif-exp').length) {
+            $('.project-gif').removeClass('project-gif-exp');
+            $("#main").removeClass("obscured");
+
+            token = 1;
+        }
+    });
+});*/
+
+$(document).ready(function () {
+    // Add a click event handler to all project images
+    var videoId = "";
+
+    $('.project-gif').click(function (event) {
+        
+        if (videoId == "") {
+            event.stopPropagation(); // Prevent the click from propagating to the document
+
+               // $(this).addClass('project-gif-exp');
+            $("#main").addClass("obscured");
+
+            // Get the data-video attribute value
+            var Id = $(this).data("video");
+
+            videoId = "#" + Id
+
+            // Show the video with the corresponding ID
+            $(videoId).addClass("project-gif-exp");
+            $(videoId).removeClass("d-none");
+            
+        }
+
+    });
+
+    $(document).click(function (event) {
+        if (!$(event.target).closest('.project-gif-exp').length) {
+            $(videoId).addClass("d-none");
+            $('.video').removeClass('project-gif-exp');
+            $("#main").removeClass("obscured");
+
+            videoId = "";
+        }
+    });
+});
+

@@ -12,6 +12,7 @@
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="Styles/css.css" rel="stylesheet" />
 </head>
@@ -35,18 +36,19 @@
         </div>
     </nav>
     <!-- Page Content-->
-    <div class="container-fluid p-0">
-        <span class="d-block d-lg-none mt-3"><img class="img-fluid img-profile rounded-circle mx-auto mb-2 img-top" src="Styles\Images\profile_pic.jpg" alt="..." style="display: flex; max-width: 30%; align-content: center; border: 0.5rem solid rgb(0 0 25);" /></span>
-        <!-- About-->
-        <section class="resume-section" id="about">
-            <div class="resume-section-content">
-                <h1 class="mb-0">
-                    Angel
-                    <span class="text-primary">Orozco</span>
-                </h1>
-                <div class="subheading mb-4">
-                    Software Developer
-                </div>
+    <div class="container-fluid p-0" id="main">
+        <div style="background-color: rgb(0,0,25, 0.2)">
+            <span class="d-block d-lg-none pt-3"><img class="img-fluid img-profile rounded-circle mx-auto mb-2 img-top" src="Styles\Images\profile_pic.jpg" alt="..." style="display: flex; max-width: 30%; align-content: center; border: 0.5rem solid rgb(0 0 25);" /></span>
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Angel
+                        <span class="text-primary">Orozco</span>
+                    </h1>
+                    <div class="subheading mb-4">
+                        Software Developer
+                    </div>
                     <div class="subheading mb-5">
                         Parque Horizonte · Cordoba, Cordoba Capital · Argentina · (11) 38448658 ·
                         <a href="mailto:angeldorozcon@gmail.com">angeldorozcon@gmail.com</a>
@@ -58,39 +60,125 @@
 
                         <a class="social-icon" href="https://www.linkedin.com/in/dev-angel-orozco/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="#!"><i class="fab fa-github"></i></a>
-                        
+
                     </div>
                 </div>
-        </section>
+            </section>
+        </div>
         <hr class="m-0" />
         <!-- Experience-->
         <section class="resume-section" id="experience">
             <div class="resume-section-content">
                 <h2 class="mb-5">Experience and Projects</h2>
+
+
+
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Senior Web Developer</h3>
-                        <div class="subheading mb-3">Intelitec Solutions</div>
-                        <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Web Developer</h3>
-                        <div class="subheading mb-3">Intelitec Solutions</div>
-                        <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">December 2011 - March 2013</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+
                     <div class="flex-grow-1">
                         <h3 class="mb-0">Junior Web Designer</h3>
-                        <div class="subheading mb-3">Shout! Media Productions</div>
-                        <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+                        <div class="subheading mb-3">Personal Project</div>
+                        <p></p>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
+                    <div class="flex-shrink-0">
+                        <span class="text-primary">March 2013 - Present</span>
+                    </div>
+
                 </div>
+
+
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="d-flex flex-column">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Microcontroller Programmer</h3>
+                            <div class="subheading mb-3">College Projects</div>
+                            <p>
+                                Designed, programmed, and implemented a minigame controlled by the microcontroller 18F47J53, coded in C language, it included SPI communication with an EEPROM. It's an "obstacle course game" consisting
+                                on a 8x8 LED matrix that scrolled through a map represented by turned-on LEDs, a single LED represents the playable "character" who moves along the x-axis to sort out the obstacles.
+                                The game also stores information like the level currently being played and a point system that gets stored in the EEPROM.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="flex-shrink-0">
+
+                        <span class="text-primary">December 2011 - March 2013</span>
+                        <img src="Styles/Images/pic_project.gif" alt="Project GIF" class="project-gif d-flex mx-auto my-5" data-video="video3">
+
+                        <div class="d-none" id="video3">
+                            <video controls="controls" class="video">
+                                <source src="Styles/Images/pic.mp4" type="video/mp4" />
+                            </video>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+
+                    <div class="d-flex flex-column">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Microcontroller Programmer</h3>
+                            <div class="subheading mb-3">College Projects</div>
+                            <p>
+                                Designed, programmed, and implemented a minigame controlled by the microcontroller 18F47J53, coded in C language, it included SPI communication with an EEPROM. It's an "obstacle course game" consisting
+                                on a 8x8 LED matrix that scrolled through a map represented by turned-on LEDs, a single LED represents the playable "character" who moves along the x-axis to sort out the obstacles.
+                                The game also stores information like the level currently being played and a point system that gets stored in the EEPROM.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="flex-shrink-0">
+
+                        <span class="text-primary">December 2011 - March 2013</span>
+                        <img src="Styles/Images/excel_project.gif" alt="Project GIF" class="project-gif d-flex mx-auto my-5" data-video="video1">
+
+                        <div class="d-none" id="video1">
+                            <video controls="controls" class="video">
+                                <source src="Styles/Images/excel.mp4" type="video/mp4" />
+                            </video>
+                        </div>
+
+                    </div>
+
+                    
+                </div>
+
+
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+
+                    <div class="d-flex flex-column">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Microcontroller Programmer</h3>
+                            <div class="subheading mb-3">College Projects</div>
+                            <p>
+                                Designed, programmed, and implemented a minigame controlled by the microcontroller 18F47J53, coded in C language, it included SPI communication with an EEPROM. It's an "obstacle course game" consisting
+                                on a 8x8 LED matrix that scrolled through a map represented by turned-on LEDs, a single LED represents the playable "character" who moves along the x-axis to sort out the obstacles.
+                                The game also stores information like the level currently being played and a point system that gets stored in the EEPROM.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="flex-shrink-0">
+
+                        <span class="text-primary">December 2011 - March 2013</span>
+                        <img src="Styles/Images/Assistance_project.gif" alt="Project GIF" class="project-gif d-flex mx-auto my-5" data-video="video2">
+
+                        <div class="d-none" id="video2">
+                            <video controls="controls" class="video">
+                                <source src="Styles/Images/assistance.mp4" type="video/mp4" />
+                            </video>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
                 <div class="d-flex flex-column flex-md-row justify-content-between">
                     <div class="flex-grow-1">
                         <h3 class="mb-0">Web Design Intern</h3>
@@ -112,9 +200,9 @@
                         <div class="subheading mb-3">Bachelor of Science</div>
                         <div>Applied Technology - Software Development Track</div>
                         <p>GPA: 3.94</p>
-                        <p>I will obtain a first certificate as a Web an Computer Programmer in december.</p>
+                        <p>I will obtain a first certificate as a Web an Computer Programmer in December 2023.</p>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">Anticipated 2027</span></div>
+                    <div class="flex-shrink-0"><span class="text-primary">Anticipated 2026</span></div>
                 </div>
                 <div class="d-flex flex-column flex-md-row justify-content-between">
                     <div class="flex-grow-1">
@@ -122,7 +210,7 @@
                         <div class="subheading mb-3">Electronic Engineering</div>
                         
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">Anticipated 2027</span></div>
+                    <div class="flex-shrink-0"><span class="text-primary">Anticipated 2026</span></div>
                 </div>
             </div>
         </section>
