@@ -1,0 +1,27 @@
+﻿@import 'css.css';
+@import 'typed';
+
+
+.description {
+    padding: 0 0 0 3px;
+    background-color: black;
+    color: white;
+
+    &::before {
+        font-weight: 600;
+    }
+
+    @include typed( "Back-end Developer", "Software Developer", "Engineering Student", 2, (caret-width: 2px, caret-space: 2px) );
+}
+
+.intro {
+    padding: 0 0 0 3px;
+    background-color: black;
+    color: white;
+
+    &::before {
+        font-weight: 600;
+    }
+
+    @include typed( "Welcome \Ato my web \Apage", 2, (caret-width: 2px, caret-space: 2px) );
+}

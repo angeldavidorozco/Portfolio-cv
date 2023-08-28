@@ -1,0 +1,859 @@
+@charset "UTF-8";
+@import 'css.css';
+.description {
+  padding: 0 0 0 3px;
+  background-color: black;
+  color: white;
+}
+.description::before {
+  font-weight: 600;
+}
+.description::before {
+  content: "​";
+  content: "​"/"Back-end Developer";
+  alt: "Back-end Developer";
+  white-space: break-spaces;
+  will-change: content;
+  animation: typed-0 9.45s linear 1s infinite forwards;
+}
+.description::after {
+  content: "​";
+  position: relative;
+  display: inline-block;
+  padding-right: 2px;
+  border-right: 2px solid currentColor;
+  white-space: nowrap;
+  animation: typed-0-caret 0.75s linear 1s infinite forwards;
+}
+@keyframes typed-0 {
+  0%, 0.5281005291% {
+    content: "​B";
+    content: "​B"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  0.5291005291%, 1.0572010582% {
+    content: "​Ba";
+    content: "​Ba"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  1.0582010582%, 1.5863015873% {
+    content: "​Bac";
+    content: "​Bac"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  1.5873015873%, 2.1154021164% {
+    content: "​Back";
+    content: "​Back"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  2.1164021164%, 2.6445026455% {
+    content: "​Back-";
+    content: "​Back-"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  2.6455026455%, 3.1736031746% {
+    content: "​Back-e";
+    content: "​Back-e"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  3.1746031746%, 3.7027037037% {
+    content: "​Back-en";
+    content: "​Back-en"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  3.7037037037%, 4.2318042328% {
+    content: "​Back-end";
+    content: "​Back-end"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  4.2328042328%, 4.7609047619% {
+    content: "​Back-end ";
+    content: "​Back-end "/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  4.7619047619%, 5.290005291% {
+    content: "​Back-end D";
+    content: "​Back-end D"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  5.291005291%, 5.8191058201% {
+    content: "​Back-end De";
+    content: "​Back-end De"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  5.8201058201%, 6.3482063492% {
+    content: "​Back-end Dev";
+    content: "​Back-end Dev"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  6.3492063492%, 6.8773068783% {
+    content: "​Back-end Deve";
+    content: "​Back-end Deve"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  6.8783068783%, 7.4064074074% {
+    content: "​Back-end Devel";
+    content: "​Back-end Devel"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  7.4074074074%, 7.9355079365% {
+    content: "​Back-end Develo";
+    content: "​Back-end Develo"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  7.9365079365%, 8.4646084656% {
+    content: "​Back-end Develop";
+    content: "​Back-end Develop"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  8.4656084656%, 8.9937089947% {
+    content: "​Back-end Develope";
+    content: "​Back-end Develope"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  8.9947089947%, 20.5281005291% {
+    content: "​Back-end Developer";
+    content: "​Back-end Developer"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  20.5291005291%, 20.9513809524% {
+    content: "​Back-end Develope";
+    content: "​Back-end Develope"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  20.9523809524%, 21.3746613757% {
+    content: "​Back-end Develop";
+    content: "​Back-end Develop"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  21.3756613757%, 21.7979417989% {
+    content: "​Back-end Develo";
+    content: "​Back-end Develo"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  21.7989417989%, 22.2212222222% {
+    content: "​Back-end Devel";
+    content: "​Back-end Devel"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  22.2222222222%, 22.6445026455% {
+    content: "​Back-end Deve";
+    content: "​Back-end Deve"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  22.6455026455%, 23.0677830688% {
+    content: "​Back-end Dev";
+    content: "​Back-end Dev"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  23.0687830688%, 23.4910634921% {
+    content: "​Back-end De";
+    content: "​Back-end De"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  23.4920634921%, 23.9143439153% {
+    content: "​Back-end D";
+    content: "​Back-end D"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  23.9153439153%, 24.3376243386% {
+    content: "​Back-end ";
+    content: "​Back-end "/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  24.3386243386%, 24.7609047619% {
+    content: "​Back-end";
+    content: "​Back-end"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  24.7619047619%, 25.1841851852% {
+    content: "​Back-en";
+    content: "​Back-en"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  25.1851851852%, 25.6074656085% {
+    content: "​Back-e";
+    content: "​Back-e"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  25.6084656085%, 26.0307460317% {
+    content: "​Back-";
+    content: "​Back-"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  26.0317460317%, 26.454026455% {
+    content: "​Back";
+    content: "​Back"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  26.455026455%, 26.8773068783% {
+    content: "​Bac";
+    content: "​Bac"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  26.8783068783%, 27.3005873016% {
+    content: "​Ba";
+    content: "​Ba"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  27.3015873016%, 27.7238677249% {
+    content: "​B";
+    content: "​B"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  27.7248677249%, 33.0148730159% {
+    content: "​";
+    content: "​"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  33.0158730159%, 33.543973545% {
+    content: "​S";
+    content: "​S"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  33.544973545%, 34.0730740741% {
+    content: "​So";
+    content: "​So"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  34.0740740741%, 34.6021746032% {
+    content: "​Sof";
+    content: "​Sof"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  34.6031746032%, 35.1312751323% {
+    content: "​Soft";
+    content: "​Soft"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  35.1322751323%, 35.6603756614% {
+    content: "​Softw";
+    content: "​Softw"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  35.6613756614%, 36.1894761905% {
+    content: "​Softwa";
+    content: "​Softwa"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  36.1904761905%, 36.7185767196% {
+    content: "​Softwar";
+    content: "​Softwar"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  36.7195767196%, 37.2476772487% {
+    content: "​Software";
+    content: "​Software"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  37.2486772487%, 37.7767777778% {
+    content: "​Software ";
+    content: "​Software "/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  37.7777777778%, 38.3058783069% {
+    content: "​Software D";
+    content: "​Software D"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  38.3068783069%, 38.834978836% {
+    content: "​Software De";
+    content: "​Software De"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  38.835978836%, 39.3640793651% {
+    content: "​Software Dev";
+    content: "​Software Dev"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  39.3650793651%, 39.8931798942% {
+    content: "​Software Deve";
+    content: "​Software Deve"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  39.8941798942%, 40.4222804233% {
+    content: "​Software Devel";
+    content: "​Software Devel"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  40.4232804233%, 40.9513809524% {
+    content: "​Software Develo";
+    content: "​Software Develo"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  40.9523809524%, 41.4804814815% {
+    content: "​Software Develop";
+    content: "​Software Develop"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  41.4814814815%, 42.0095820106% {
+    content: "​Software Develope";
+    content: "​Software Develope"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  42.0105820106%, 53.543973545% {
+    content: "​Software Developer";
+    content: "​Software Developer"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  53.544973545%, 53.9672539683% {
+    content: "​Software Develope";
+    content: "​Software Develope"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  53.9682539683%, 54.3905343915% {
+    content: "​Software Develop";
+    content: "​Software Develop"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  54.3915343915%, 54.8138148148% {
+    content: "​Software Develo";
+    content: "​Software Develo"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  54.8148148148%, 55.2370952381% {
+    content: "​Software Devel";
+    content: "​Software Devel"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  55.2380952381%, 55.6603756614% {
+    content: "​Software Deve";
+    content: "​Software Deve"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  55.6613756614%, 56.0836560847% {
+    content: "​Software Dev";
+    content: "​Software Dev"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  56.0846560847%, 56.5069365079% {
+    content: "​Software De";
+    content: "​Software De"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  56.5079365079%, 56.9302169312% {
+    content: "​Software D";
+    content: "​Software D"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  56.9312169312%, 57.3534973545% {
+    content: "​Software ";
+    content: "​Software "/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  57.3544973545%, 57.7767777778% {
+    content: "​Software";
+    content: "​Software"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  57.7777777778%, 58.2000582011% {
+    content: "​Softwar";
+    content: "​Softwar"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  58.2010582011%, 58.6233386243% {
+    content: "​Softwa";
+    content: "​Softwa"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  58.6243386243%, 59.0466190476% {
+    content: "​Softw";
+    content: "​Softw"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  59.0476190476%, 59.4698994709% {
+    content: "​Soft";
+    content: "​Soft"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  59.4708994709%, 59.8931798942% {
+    content: "​Sof";
+    content: "​Sof"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  59.8941798942%, 60.3164603175% {
+    content: "​So";
+    content: "​So"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  60.3174603175%, 60.7397407407% {
+    content: "​S";
+    content: "​S"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  60.7407407407%, 66.0307460317% {
+    content: "​";
+    content: "​"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  66.0317460317%, 66.5598465608% {
+    content: "​E";
+    content: "​E"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  66.5608465608%, 67.0889470899% {
+    content: "​En";
+    content: "​En"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  67.0899470899%, 67.618047619% {
+    content: "​Eng";
+    content: "​Eng"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  67.619047619%, 68.1471481481% {
+    content: "​Engi";
+    content: "​Engi"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  68.1481481481%, 68.6762486772% {
+    content: "​Engin";
+    content: "​Engin"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  68.6772486772%, 69.2053492063% {
+    content: "​Engine";
+    content: "​Engine"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  69.2063492063%, 69.7344497354% {
+    content: "​Enginee";
+    content: "​Enginee"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  69.7354497354%, 70.2635502646% {
+    content: "​Engineer";
+    content: "​Engineer"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  70.2645502646%, 70.7926507937% {
+    content: "​Engineeri";
+    content: "​Engineeri"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  70.7936507937%, 71.3217513228% {
+    content: "​Engineerin";
+    content: "​Engineerin"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  71.3227513228%, 71.8508518519% {
+    content: "​Engineering";
+    content: "​Engineering"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  71.8518518519%, 72.379952381% {
+    content: "​Engineering ";
+    content: "​Engineering "/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  72.380952381%, 72.9090529101% {
+    content: "​Engineering S";
+    content: "​Engineering S"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  72.9100529101%, 73.4381534392% {
+    content: "​Engineering St";
+    content: "​Engineering St"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  73.4391534392%, 73.9672539683% {
+    content: "​Engineering Stu";
+    content: "​Engineering Stu"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  73.9682539683%, 74.4963544974% {
+    content: "​Engineering Stud";
+    content: "​Engineering Stud"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  74.4973544974%, 75.0254550265% {
+    content: "​Engineering Stude";
+    content: "​Engineering Stude"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  75.0264550265%, 75.5545555556% {
+    content: "​Engineering Studen";
+    content: "​Engineering Studen"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  75.5555555556%, 87.0889470899% {
+    content: "​Engineering Student";
+    content: "​Engineering Student"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  87.0899470899%, 87.5122275132% {
+    content: "​Engineering Studen";
+    content: "​Engineering Studen"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  87.5132275132%, 87.9355079365% {
+    content: "​Engineering Stude";
+    content: "​Engineering Stude"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  87.9365079365%, 88.3587883598% {
+    content: "​Engineering Stud";
+    content: "​Engineering Stud"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  88.3597883598%, 88.7820687831% {
+    content: "​Engineering Stu";
+    content: "​Engineering Stu"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  88.7830687831%, 89.2053492063% {
+    content: "​Engineering St";
+    content: "​Engineering St"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  89.2063492063%, 89.6286296296% {
+    content: "​Engineering S";
+    content: "​Engineering S"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  89.6296296296%, 90.0519100529% {
+    content: "​Engineering ";
+    content: "​Engineering "/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  90.0529100529%, 90.4751904762% {
+    content: "​Engineering";
+    content: "​Engineering"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  90.4761904762%, 90.8984708995% {
+    content: "​Engineerin";
+    content: "​Engineerin"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  90.8994708995%, 91.3217513228% {
+    content: "​Engineeri";
+    content: "​Engineeri"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  91.3227513228%, 91.745031746% {
+    content: "​Engineer";
+    content: "​Engineer"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  91.746031746%, 92.1683121693% {
+    content: "​Enginee";
+    content: "​Enginee"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  92.1693121693%, 92.5915925926% {
+    content: "​Engine";
+    content: "​Engine"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  92.5925925926%, 93.0148730159% {
+    content: "​Engin";
+    content: "​Engin"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  93.0158730159%, 93.4381534392% {
+    content: "​Engi";
+    content: "​Engi"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  93.4391534392%, 93.8614338624% {
+    content: "​Eng";
+    content: "​Eng"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  93.8624338624%, 94.2847142857% {
+    content: "​En";
+    content: "​En"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  94.2857142857%, 94.707994709% {
+    content: "​E";
+    content: "​E"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+  94.708994709%, 100% {
+    content: "​";
+    content: "​"/"Back-end Developer";
+    alt: "Back-end Developer";
+  }
+}
+@keyframes typed-0-caret {
+  75% {
+    border-color: transparent;
+  }
+}
+
+.intro {
+  padding: 0 0 0 3px;
+  background-color: black;
+  color: white;
+}
+.intro::before {
+  font-weight: 600;
+}
+.intro::before {
+  content: "​";
+  content: "​"/"Welcome \ato my web \apage";
+  alt: "Welcome \ato my web \apage";
+  white-space: break-spaces;
+  will-change: content;
+  animation: typed-1 3.66s linear 1s infinite forwards;
+}
+.intro::after {
+  content: "​";
+  position: relative;
+  display: inline-block;
+  padding-right: 2px;
+  border-right: 2px solid currentColor;
+  white-space: nowrap;
+  animation: typed-1-caret 0.75s linear 1s infinite forwards;
+}
+@keyframes typed-1 {
+  0%, 1.3651202186% {
+    content: "​W";
+    content: "​W"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  1.3661202186%, 2.7312404372% {
+    content: "​We";
+    content: "​We"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  2.7322404372%, 4.0973606557% {
+    content: "​Wel";
+    content: "​Wel"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  4.0983606557%, 5.4634808743% {
+    content: "​Welc";
+    content: "​Welc"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  5.4644808743%, 6.8296010929% {
+    content: "​Welco";
+    content: "​Welco"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  6.8306010929%, 8.1957213115% {
+    content: "​Welcom";
+    content: "​Welcom"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  8.1967213115%, 9.5618415301% {
+    content: "​Welcome";
+    content: "​Welcome"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  9.5628415301%, 10.9279617486% {
+    content: "​Welcome ";
+    content: "​Welcome "/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  10.9289617486%, 12.2940819672% {
+    content: "​Welcome \a";
+    content: "​Welcome \a"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  12.2950819672%, 13.6602021858% {
+    content: "​Welcome \at";
+    content: "​Welcome \at"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  13.6612021858%, 15.0263224044% {
+    content: "​Welcome \ato";
+    content: "​Welcome \ato"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  15.0273224044%, 16.392442623% {
+    content: "​Welcome \ato ";
+    content: "​Welcome \ato "/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  16.393442623%, 17.7585628415% {
+    content: "​Welcome \ato m";
+    content: "​Welcome \ato m"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  17.7595628415%, 19.1246830601% {
+    content: "​Welcome \ato my";
+    content: "​Welcome \ato my"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  19.1256830601%, 20.4908032787% {
+    content: "​Welcome \ato my ";
+    content: "​Welcome \ato my "/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  20.4918032787%, 21.8569234973% {
+    content: "​Welcome \ato my w";
+    content: "​Welcome \ato my w"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  21.8579234973%, 23.2230437158% {
+    content: "​Welcome \ato my we";
+    content: "​Welcome \ato my we"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  23.2240437158%, 24.5891639344% {
+    content: "​Welcome \ato my web";
+    content: "​Welcome \ato my web"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  24.5901639344%, 25.955284153% {
+    content: "​Welcome \ato my web ";
+    content: "​Welcome \ato my web "/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  25.956284153%, 27.3214043716% {
+    content: "​Welcome \ato my web \a";
+    content: "​Welcome \ato my web \a"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  27.3224043716%, 28.6875245902% {
+    content: "​Welcome \ato my web \ap";
+    content: "​Welcome \ato my web \ap"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  28.6885245902%, 30.0536448087% {
+    content: "​Welcome \ato my web \apa";
+    content: "​Welcome \ato my web \apa"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  30.0546448087%, 31.4197650273% {
+    content: "​Welcome \ato my web \apag";
+    content: "​Welcome \ato my web \apag"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  31.4207650273%, 61.2011857923% {
+    content: "​Welcome \ato my web \apage";
+    content: "​Welcome \ato my web \apage"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  61.2021857923%, 62.2940819672% {
+    content: "​Welcome \ato my web \apag";
+    content: "​Welcome \ato my web \apag"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  62.2950819672%, 63.3869781421% {
+    content: "​Welcome \ato my web \apa";
+    content: "​Welcome \ato my web \apa"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  63.3879781421%, 64.4798743169% {
+    content: "​Welcome \ato my web \ap";
+    content: "​Welcome \ato my web \ap"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  64.4808743169%, 65.5727704918% {
+    content: "​Welcome \ato my web \a";
+    content: "​Welcome \ato my web \a"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  65.5737704918%, 66.6656666667% {
+    content: "​Welcome \ato my web ";
+    content: "​Welcome \ato my web "/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  66.6666666667%, 67.7585628415% {
+    content: "​Welcome \ato my web";
+    content: "​Welcome \ato my web"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  67.7595628415%, 68.8514590164% {
+    content: "​Welcome \ato my we";
+    content: "​Welcome \ato my we"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  68.8524590164%, 69.9443551913% {
+    content: "​Welcome \ato my w";
+    content: "​Welcome \ato my w"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  69.9453551913%, 71.0372513661% {
+    content: "​Welcome \ato my ";
+    content: "​Welcome \ato my "/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  71.0382513661%, 72.130147541% {
+    content: "​Welcome \ato my";
+    content: "​Welcome \ato my"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  72.131147541%, 73.2230437158% {
+    content: "​Welcome \ato m";
+    content: "​Welcome \ato m"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  73.2240437158%, 74.3159398907% {
+    content: "​Welcome \ato ";
+    content: "​Welcome \ato "/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  74.3169398907%, 75.4088360656% {
+    content: "​Welcome \ato";
+    content: "​Welcome \ato"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  75.4098360656%, 76.5017322404% {
+    content: "​Welcome \at";
+    content: "​Welcome \at"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  76.5027322404%, 77.5946284153% {
+    content: "​Welcome \a";
+    content: "​Welcome \a"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  77.5956284153%, 78.6875245902% {
+    content: "​Welcome ";
+    content: "​Welcome "/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  78.6885245902%, 79.780420765% {
+    content: "​Welcome";
+    content: "​Welcome"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  79.781420765%, 80.8733169399% {
+    content: "​Welcom";
+    content: "​Welcom"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  80.8743169399%, 81.9662131148% {
+    content: "​Welco";
+    content: "​Welco"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  81.9672131148%, 83.0591092896% {
+    content: "​Welc";
+    content: "​Welc"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  83.0601092896%, 84.1520054645% {
+    content: "​Wel";
+    content: "​Wel"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  84.1530054645%, 85.2449016393% {
+    content: "​We";
+    content: "​We"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  85.2459016393%, 86.3377978142% {
+    content: "​W";
+    content: "​W"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+  86.3387978142%, 100% {
+    content: "​";
+    content: "​"/"Welcome \ato my web \apage";
+    alt: "Welcome \ato my web \apage";
+  }
+}
+@keyframes typed-1-caret {
+  75% {
+    border-color: transparent;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
