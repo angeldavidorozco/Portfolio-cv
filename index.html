@@ -18,10 +18,19 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap CSS (for styling) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+
+    <!-- jQuery (required for Bootstrap JavaScript) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="Styles/styles.css" rel="stylesheet" />
 </head>
-<body id="page-top">
+<body id="page-top" data-bs-spy="scroll" data-bs-target="#sideNav">
     <div class="loader-container">
         <h1 class="intro"></h1>
     </div>
@@ -301,70 +310,71 @@
             <!-- Education-->
             <section class="resume-section" id="education">
                 <div class="resume-section-content educationSection">
+                    <div class="education-sector">
 
+                        <h2 class="mb-5 education-title">Education</h2>
+                        <div class="d-flex flex-column flex-md-row justify-content-between mb-5 education1">
 
-                    <h2 class="mb-5 education-title">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5 education1">
-
-                        <div class="education rounded">
-                            <div class="flex-grow-1 mb-2">
-                                <h3 class="mb-0">Brigham Young University</h3>
-                                <div class="subheading mb-3">Bachelor of Science</div>
-                                <div>Applied Technology - Software Development Track</div>
-                                <p>GPA: 3.94</p>
-                                <p>I will obtain a first certificate as a Web an Computer Programmer in December 2023.</p>
-                                <ul class="fa-ul mb-0">
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                                        Proficiency in OOP.
-                                    </li>
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                                        Regular usage of Git and Github for version control.
-                                    </li>
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                                        Software desing and implementation.
-                                    </li>
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                                        Design patterns and Unit Testing.
-                                    </li>
-                                </ul>
+                            <div class="education rounded">
+                                <div class="flex-grow-1 mb-2">
+                                    <h3 class="mb-0">Brigham Young University</h3>
+                                    <div class="subheading mb-3">Bachelor of Science</div>
+                                    <div>Applied Technology - Software Development Track</div>
+                                    <p>GPA: 3.94</p>
+                                    <p>I will obtain a first certificate as a Web an Computer Programmer in December 2023.</p>
+                                    <ul class="fa-ul mb-0">
+                                        <li>
+                                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                                            Proficiency in OOP.
+                                        </li>
+                                        <li>
+                                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                                            Regular usage of Git and Github for version control.
+                                        </li>
+                                        <li>
+                                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                                            Software desing and implementation.
+                                        </li>
+                                        <li>
+                                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                                            Design patterns and Unit Testing.
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="flex-shrink-0"><span style="color:white;">Anticipated 2026</span></div>
                             </div>
-                            <div class="flex-shrink-0"><span style="color:white;">Anticipated 2026</span></div>
                         </div>
-                    </div>
 
 
-                    <div class="d-flex flex-column flex-md-row justify-content-between education2">
+                        <div class="d-flex flex-column flex-md-row justify-content-between education2">
 
-                        <div class="education rounded">
-                            <div class="flex-grow-1 mb-2">
-                                <h3 class="mb-0">Universidad Nacional de Cordoba</h3>
-                                <div class="subheading mb-3">Electronic Engineering</div>
+                            <div class="education rounded">
+                                <div class="flex-grow-1 mb-2">
+                                    <h3 class="mb-0">Universidad Nacional de Cordoba</h3>
+                                    <div class="subheading mb-3">Electronic Engineering</div>
 
-                                <ul class="fa-ul mb-0">
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                                        Circuit design and implementation.
-                                    </li>
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                                        Data Analisys.
-                                    </li>
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                                        Advance calculus.
-                                    </li>
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                                        Measurement equipments.
-                                    </li>
-                                </ul>
+                                    <ul class="fa-ul mb-0">
+                                        <li>
+                                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                                            Circuit design and implementation.
+                                        </li>
+                                        <li>
+                                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                                            Data Analisys.
+                                        </li>
+                                        <li>
+                                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                                            Advance calculus.
+                                        </li>
+                                        <li>
+                                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                                            Measurement equipments.
+                                        </li>
+                                    </ul>
 
+                                </div>
+                                <div class="flex-shrink-0"><span style="color:white;">Anticipated 2026</span></div>
                             </div>
-                            <div class="flex-shrink-0"><span style="color:white;">Anticipated 2026</span></div>
                         </div>
                     </div>
                 </div>
@@ -471,7 +481,7 @@
         </div>
     </div>
     <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>

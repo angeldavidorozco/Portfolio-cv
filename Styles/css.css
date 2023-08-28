@@ -48,10 +48,10 @@
 
 .box {
     position: absolute;
-    width: 50%;
+    width: 30%;
 
     bottom: -30%;
-    left: 150%;
+    left: 100%;
     margin-bottom:6%;
 }
 
@@ -65,7 +65,6 @@
 .animate-on-scroll h2 {
     position: absolute;
     
-    left: 150%;
     
 }
 
@@ -87,7 +86,7 @@
 @keyframes moveBox {
     0% {
         bottom: -30%;
-        left:150%; /* Start from the right edge */
+        left:100%; /* Start from the right edge */
     }
 
 
@@ -101,7 +100,7 @@
 @keyframes moveTitle {
     0% {
         
-        left: 150% /* Start from the right edge */
+        left: 100% /* Start from the right edge */
     }
 
 
@@ -256,6 +255,10 @@
 
 /*********************/
 
+.education-sector{
+    width:100vh;
+    height:100vh;
+}
 
 .education {
     background-color: #000019;
@@ -265,12 +268,20 @@
     
 }
 
+.education-title{
+    position:absolute;
+    top:0;
+}
+
 .education1 {
-    display:none;
+    position:absolute;
+    right:100%;
+    top:20%;
 }
 .education2 {
-   display:none;
-    
+    position: absolute;
+    left: 100%;
+    top:70%;
 }
 
 
@@ -285,20 +296,22 @@
 
 @keyframes moveDiv1{
     0% {
-        display: block;
+        width: 0%
     }
     100% {
-        margin-left: 0;
+        right: 0;
+        width: 100%
     }
 }
 
 @keyframes moveDiv2 {
     0% {
-        display: block;
+        width: 0%
     }
 
     100% {
-        margin-right: 0;
+        left: 0;
+        width: 100%
     }
 }
 
