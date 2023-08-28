@@ -61,7 +61,7 @@ $(document).ready(function () {
         
         if (videoId == "") {
             event.stopPropagation();
-           
+
                // $(this).addClass('project-gif-exp');
             $("#main").addClass("obscured");
 
