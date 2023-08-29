@@ -11,10 +11,15 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
-/********Border animation*********/
+/********grid for the DWNL btns*********/
 
 
+.downloadbtns {
+    display:inline-grid;
+    max-width:100%;
+    grid-template-rows: auto ;
 
+}
 
 
 

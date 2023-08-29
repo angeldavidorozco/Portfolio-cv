@@ -2,7 +2,6 @@
 @import 'css.css';
 .description {
   padding: 0 0 0 3px;
-  background-color: black;
   color: white;
 }
 .description::before {
