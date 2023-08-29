@@ -150,8 +150,8 @@ function checkScroll() {
     }
     else if (elementPositionEducation.top < window.innerHeight) {
         
-        $(".education1").addClass('moveDiv1');
-        $(".education2").addClass('moveDiv2');
+        ///$(".education1").addClass('moveDiv1');
+        //s$(".education2").addClass('moveDiv2');
 
 
 
