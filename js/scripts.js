@@ -148,21 +148,6 @@ function checkScroll() {
         $(".education2").removeClass('moveDiv2');*/
 
     }
-    else if (elementPositionEducation.top < window.innerHeight) {
-        
-        ///$(".education1").addClass('moveDiv1');
-        //s$(".education2").addClass('moveDiv2');
-
-
-
-        /*//you have to delete the classes of the other sections
-        $(".skills-title").removeClass('moveTitle');
-        $(".box").removeClass('moveBox');
-        $(".icon-list").removeClass('rotate');
-        toolBox.removeClass('d-none');
-        display.addClass('d-none');
-        icons.addClass('d-none');*/
-    }
     else {
 
 
@@ -174,10 +159,6 @@ function checkScroll() {
         display.addClass('d-none');
         icons.addClass('d-none');
 
-
-        
-        $(".education1").removeClass('moveDiv1');
-        $(".education2").removeClass('moveDiv2');
     }
 }
 

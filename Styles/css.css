@@ -100,7 +100,7 @@
 @keyframes moveTitle {
     0% {
         
-        left: 100% /* Start from the right edge */
+        left: 80% /* Start from the right edge */
     }
 
 
