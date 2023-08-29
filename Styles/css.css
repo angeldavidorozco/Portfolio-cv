@@ -86,7 +86,7 @@
 @keyframes moveBox {
     0% {
         
-        left:100%; /* Start from the right edge */
+        left:70%; /* Start from the right edge */
     }
 
 
