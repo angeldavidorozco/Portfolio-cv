@@ -42,6 +42,15 @@
     }
 }
 
+@media (max-width: 500px) {
+
+    .fa-css3-alt, .fa-square-js, .fa-html5, .fa-bootstrap, .fa-sass, .fa-python, .fa-square-git {
+        font-size: 3rem !important; /* Adjust the size as needed */
+    }
+}
+
+
+
 /* Style for screens 992px and smaller */
 .skills {
     height: 40vh;
@@ -138,7 +147,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #4f4f4f;
+    background-color: #a9a9a9;
     padding: 6px;
     border-radius: 10px;
     width: 100%;
