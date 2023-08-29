@@ -45,7 +45,7 @@
 @media (max-width: 500px) {
 
     .fa-css3-alt, .fa-square-js, .fa-html5, .fa-bootstrap, .fa-sass, .fa-python, .fa-square-git {
-        font-size: 3rem !important; /* Adjust the size as needed */
+        font-size: 2rem !important; /* Adjust the size as needed */
     }
 }
 
