@@ -321,10 +321,14 @@ body {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 992px) {
 
     .fa-css3-alt, .fa-square-js, .fa-html5, .fa-bootstrap, .fa-sass, .fa-python, .fa-square-git {
         font-size: 2rem !important; /* Adjust the size as needed */
+    }
+
+    .icon-item h3{
+        font-size:76%!important;
     }
 }
 
@@ -421,6 +425,16 @@ body {
     
 }
 
+.icon-item h3{
+    color:black;
+    margin-left:10px;
+}
+
+.left{
+    justify-content:flex-start;
+    display:flex;
+}
+
 
 .icon-item {
     display: flex;
@@ -431,6 +445,7 @@ body {
     border-radius: 10px;
     width: 100%;
 }
+
 
 .icon-list img {
     
