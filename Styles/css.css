@@ -324,9 +324,10 @@ body {
 @media (max-width: 550px) {
 
 
-    .icon-item h6{
-        margin-left:2px!important;
+    .icon-item h6 {
+        margin-left: 2px !important;
         color: black;
+        font-size: 76% !important;
     }
 }
 
