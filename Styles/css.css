@@ -326,6 +326,7 @@ body {
 
     .icon-item h6{
         margin-left:2px!important;
+        color: black;
     }
 }
 
@@ -423,6 +424,7 @@ body {
 }
 
 .icon-item h6{
+
     color:black;
     margin-left:10px;
     
