@@ -321,14 +321,11 @@ body {
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 550px) {
 
-    .fa-css3-alt, .fa-square-js, .fa-html5, .fa-bootstrap, .fa-sass, .fa-python, .fa-square-git {
-        font-size: 2rem !important; /* Adjust the size as needed */
-    }
 
-    .icon-item h3{
-        font-size:76%!important;
+    .icon-item h6{
+        margin-left:2px!important;
     }
 }
 
@@ -425,9 +422,10 @@ body {
     
 }
 
-.icon-item h3{
+.icon-item h6{
     color:black;
     margin-left:10px;
+    
 }
 
 .left{
