@@ -8,6 +8,7 @@
 // 
 
 window.addEventListener('DOMContentLoaded', event => {
+    document.body.style.overflow = 'hidden'; //prevent scrolling to avind missing introductory page
     // Activate Bootstrap scrollspy on the main nav element
     const sideNav = document.body.querySelector('#sideNav');
     if (sideNav) {
@@ -48,9 +49,10 @@ window.addEventListener('load', function () {
         const content = document.querySelector('.content');
         content.style.opacity = '1';
         
+        document.body.style.overflow = 'auto';
     }, 3000); // Adjust the delay time (in milliseconds) as needed
     setTimeout(function () {
-
+        
         loaderContainer.style.display = 'none';
     }, 5000);
 });
